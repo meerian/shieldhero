@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8286642329406857744
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8286642329406857746}
+  - component: {fileID: 8286642329406857745}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8286642329406857746
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8286642329406857744}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.236428, y: -0.5448459, z: -0.02313419}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8286642329406857745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8286642329406857744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4098b9fe2b308144ab3aab06a73945ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: gamemusic
+    clip: {fileID: 8300000, guid: facdb56a78c59c740b8ea4d07be8f865, type: 3}
+    loop: 1
+    volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+  - name: beep
+    clip: {fileID: 8300000, guid: 99ccfd42f5735fc49b772a91afb54a8a, type: 3}
+    loop: 0
+    volume: 0.1
+    pitch: 1.5
+    source: {fileID: 0}
+  - name: dash
+    clip: {fileID: 8300000, guid: ec3b85bd7d6bed7418f105b704cfa95f, type: 3}
+    loop: 0
+    volume: 0.3
+    pitch: 1.4
+    source: {fileID: 0}
+  - name: playerhurt
+    clip: {fileID: 8300000, guid: 49cb8d8b93f872a4da007fd82fec3108, type: 3}
+    loop: 0
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - name: getexp
+    clip: {fileID: 8300000, guid: 964cd9b46d4dbdb4ca20d413588708cd, type: 3}
+    loop: 0
+    volume: 0.2
+    pitch: 1.5
+    source: {fileID: 0}
+  - name: mouseover
+    clip: {fileID: 8300000, guid: 16df835d16fef8146a797a6265835d37, type: 3}
+    loop: 0
+    volume: 0.2
+    pitch: 1.5
+    source: {fileID: 0}
+  - name: mousedown
+    clip: {fileID: 8300000, guid: 0fd1081bd3672f546a99e3e24ceed609, type: 3}
+    loop: 0
+    volume: 0.2
+    pitch: 1.5
+    source: {fileID: 0}
+  - name: enemyhurt
+    clip: {fileID: 8300000, guid: 49cb8d8b93f872a4da007fd82fec3108, type: 3}
+    loop: 0
+    volume: 0.2
+    pitch: 1.5
+    source: {fileID: 0}
+  - name: spawnrusher
+    clip: {fileID: 8300000, guid: 80507f22d8aa27940ad6598620117955, type: 3}
+    loop: 0
+    volume: 0.3
+    pitch: 2
+    source: {fileID: 0}
+  - name: spawnfire
+    clip: {fileID: 8300000, guid: 3d6cfa959936c904cae427a31f70e396, type: 3}
+    loop: 0
+    volume: 0.07
+    pitch: 1.2
+    source: {fileID: 0}
+  - name: freezecircle
+    clip: {fileID: 8300000, guid: 2deb562457232c94da980e5e264fb3d8, type: 3}
+    loop: 0
+    volume: 0.3
+    pitch: 1.5
+    source: {fileID: 0}
+  - name: spawncircler
+    clip: {fileID: 8300000, guid: 37f671ed44cff4a418cb7a735d6e544f, type: 3}
+    loop: 0
+    volume: 0.2
+    pitch: 2
+    source: {fileID: 0}
+  - name: circlerdash
+    clip: {fileID: 8300000, guid: ec3b85bd7d6bed7418f105b704cfa95f, type: 3}
+    loop: 0
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - name: spawngunner
+    clip: {fileID: 8300000, guid: b2033f0668f3ffa4f9ef6ddefd87ac51, type: 3}
+    loop: 0
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - name: gunnershoot
+    clip: {fileID: 8300000, guid: d3e4c4f79402f7b4e925f4325533e1a8, type: 3}
+    loop: 0
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - name: levelup
+    clip: {fileID: 8300000, guid: 7b336e16b70deb84cbcb641a55a43f0c, type: 3}
+    loop: 0
+    volume: 0.5
+    pitch: 1.3
+    source: {fileID: 0}
+  isMuted: 0
